@@ -60,7 +60,6 @@ h1::first-letter{
     padding-left: 10vw;
     padding-right: 10vw;
     padding-top: 1vh;
-    /* background: #000; */
 }
 .hdrIntrnl{
     height: 45vh;
@@ -94,6 +93,7 @@ h1::first-letter{
 }
 .navHdr ul li{
     float: right;
+    font-size: small;
 }
 .addressLine{
     height: 1.5em;
@@ -101,9 +101,7 @@ h1::first-letter{
     background: rgba(red, green, blue, .0);
 }
 .lftDiv{
-    background: yellow;
     width: 23%;
-    /* float: left; */
 }
 .rghtSctn{
     /* background: blue; */
@@ -141,4 +139,111 @@ h1::first-letter{
 }
 .frm h3{
     color: #000;
+}
+.lftTxt{
+    width: 100%;
+    background: #fff;
+    font-size: .9em;
+}
+.lftTxt h3{
+    color:#000;
+}
+.allWdth h2::first-letter, .h1Lsts::first-letter{
+    color: rgb(172, 73, 93);
+}
+.blckFrThr{
+    display: flex;
+    margin-bottom: -2vh;
+}
+.blckFrThr img{
+    width: 100%;
+    margin-left: -.5vw;
+}
+.lists .cntnr{
+    display: flex;
+    font-size: .75em;
+    margin-bottom: -5vh;
+}
+.cntnr div{
+    padding: 2%;
+    margin-top: -6%;
+}
+.cntnr ul, .cntnr ol{
+    padding-left: 1ex;
+}
+.cntnr li{
+    padding-left: .5ex;
+}
+.cntnr ul ul{
+    padding-left: 3ex;
+}
+.cntnr ul ul li{
+    list-style-type: square;
+}
+.tableBlock{
+    font-size: .9em;
+}
+.tableBlock table{
+    /* border: .5px solid #fff; */
+    width: 100%;
+    font-size: .9em;
+    border-collapse: collapse;
+}
+.tableBlock table td{
+    border-collapse: collapse;
+    border: 1px solid rgb(145, 150, 155);
+    background: rgb(45, 50, 55);
+    padding-left: 1em;    
+    padding-right: 1em;
+    font-size: .9em;    
+}
+.tableBlock table th{
+    color:#fff;
+    background: rgb(172, 73, 93);
+    font-size: .9em;
+    border: 1px solid rgb(145, 150, 155);
+}
+.tableBlock table td, .tableBlock table th{
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+}
+.ftr{
+    font-size: .7em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ftrDiv{
+    width: 30%;
+}
+.ftrDiv hr{
+    border: 1px solid rgb(64, 69, 75);
+}
+span.fl{
+    color: rgb(172, 73, 93);
+}
+.ftrDiv1 ul{
+    padding-left: 2em;
+    font-size: .8em;
+}
+.oclock li{
+    list-style: url("/images/time.svg") left;
+    padding-right: 1vw;
+}
+.oclock li::marker{
+    color: rgb(172, 73, 93); 
+    /* не знайшов спосіб пофарбувати ці грьобані булети. */
+}
+.ftrDiv2 ul{
+    padding-left: 2em;
+}
+.ftrDiv2 ul li::marker{
+    padding: unset;
+    color: rgb(172, 73, 93);
+
+}
+a{
+    text-decoration: none;
+    color: rgb(172, 73, 93);
+    text-decoration: underline;
 }
