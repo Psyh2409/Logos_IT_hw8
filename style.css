@@ -1,0 +1,144 @@
+@font-face{
+    font-family: "Montserrat-Medium";
+    src: url("/fonts/Montserrat-Medium.ttf");
+}
+.bd{
+    padding:2.7vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background: white;
+    color: rgb(145, 150, 155);
+    font-family: "Montserrat-Medium";
+}
+.extMn{
+    background: rgb(225, 225, 225);
+}
+.extHdr{
+    height: 10vh;
+}
+.extHdr, .ftr{
+    background-color: rgb(45, 50, 55);
+    padding-left: 11.76%;
+    padding-right: 11.76%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1::first-letter{
+    color: rgb(172, 73, 93);
+}
+.h1Hdr, .h6Hdr{
+    margin-top: 1vh;margin-bottom: -1.5vh;
+}
+.extHdrDiv.srchDiv{
+    width: 32%;
+    height: 8vh;
+    margin-top: 1vh;
+}
+.srch{
+    height: 6vh;
+    background: rgb(37, 38, 45);
+    position: relative;
+    margin-top: 1vh;
+    border: 1px solid rgb(174, 74, 100);
+    border-radius: 1ex;
+    color: brown;
+}
+.hdrLbl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.srchSbmt{
+    height: 7vh;
+    margin-top: 0.5vh;
+    background: rgb(174, 74, 100);
+    border-radius: 1ex;
+}
+.mnIntrnl{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 1vh;
+    /* background: #000; */
+}
+.hdrIntrnl{
+    height: 45vh;
+    margin-top: -1vh;
+}
+.bgImg{
+    height: 80%;
+    background: url("/images/header.jpg") no-repeat;
+}
+.txtHdrIntrnl{
+    width: 60%;
+    height: 31vh;
+    font-size: .8em;
+    padding: 1em;
+    padding-left: 2em;
+}
+.blackTxt{color: #000;}
+.navHdr{
+    margin-top: -2.5vh;
+    height: 2.25em;
+    background: rgb(148, 23, 31);
+    color: white;
+    padding-left: 20%;
+    padding-right: 2%;
+}
+.navHdr ul{
+    padding-top: .5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navHdr ul li{
+    float: right;
+}
+.addressLine{
+    height: 1.5em;
+    font-size: small;
+    background: rgba(red, green, blue, .0);
+}
+.lftDiv{
+    background: yellow;
+    width: 23%;
+    /* float: left; */
+}
+.rghtSctn{
+    /* background: blue; */
+    width: 73%;
+}
+.intrnlMn{
+    width: 70vw;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1%;
+    font-size: small;
+}
+.frm{
+    background: rgb(242,242,242);
+    padding: 5%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.frm input{
+    width: 95%;
+}
+.frm select{
+    width: 100%;
+}
+.frm button{
+    width: 96%;
+    height: 3em;
+    border: 0.35em solid #fff;
+    background: rgb(148, 23, 31);
+    color: white;
+}
+.frm h3{
+    color: #000;
+}
