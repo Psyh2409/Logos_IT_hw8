@@ -207,6 +207,7 @@ h1::first-letter{
     padding-bottom: .5vh;
 }
 .ftr{
+    border-top: 1.5ex solid rgb(172, 73, 93);
     font-size: .7em;
     display: flex;
     flex-direction: row;
