@@ -113,6 +113,7 @@ h1::first-letter{
     flex-direction: row;
     justify-content: space-around;
     padding: 1%;
+    padding-bottom: 3em;
     font-size: small;
 }
 .frm{
